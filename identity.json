@@ -1,0 +1,16 @@
+{
+  "class": "Identity",
+  "users": {
+    "admin": "password123"
+  },
+  "methods": {
+    "AuthenticateUser": {
+      "description": "Prompts the user for a username and password, and checks if the credentials match any in the users dictionary.",
+      "input": [
+        "username (string)",
+        "password (string)"
+      ],
+      "output": "string or null"
+    }
+  }
+}
